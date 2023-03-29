@@ -1,13 +1,16 @@
 .container {
-  margin: auto;
+  margin: 0 auto;
   max-width: 800px;
   max-height: min-content;
   background-color: burlywood;
+  opacity: 0.8;
   text-align: center;
 }
 
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url('vecteezy/vecteezy_grid-paper-on-a-white-background-vector-illustration-for_7875353.jpg');
+  background-size: cover;
 }
 
 .card-header {
