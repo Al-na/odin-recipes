@@ -1,0 +1,77 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: url('../vecteezy/vecteezy_grid-paper-on-a-white-background-vector-illustration-for_7875353.jpg');
+  background-size: cover;
+  color: #191716;
+}
+
+.banner-container {
+  background-color: antiquewhite;
+  opacity: .9;
+}
+
+.banner {
+  background-image: url('../vecteezy/gourmet-mushroom-risotto.jpeg');
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+}
+
+.banner h1 {
+  margin: 0;
+  color: #BEB7A4;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  font-size: 32px;
+  font-weight: bold;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+.banner p {
+  font-size: 15px;
+  color: #BEB7A4;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  padding-left: 30px;
+  padding-right: 400px;
+  padding-bottom: 20px;
+}
+
+.container-recipe {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 800px;
+  max-height: min-content;
+}
+
+/* .card-recipe-title {
+  margin-top: 30px;
+} */
+
+/* .recipe-title {
+  text-decoration: dotted underline #191716;
+  text-underline-offset: .25em;
+  line-height: 1.9;
+} */
+
+/* .recipe-img {
+  height: auto;
+  width: 550px;
+  border-radius: 5px;
+} */
+
+/* .subheader {
+  text-decoration: dotted underline #191716;
+  text-underline-offset: .25em;
+  line-height: 1.9;
+}
+
+.list-ingredients {
+  list-style-type: none;
+  line-height: 1.9;
+  font-size: 10px;
+}
+
+.list-instructions {
+  line-height: 1.9;
+} */

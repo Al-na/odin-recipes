@@ -2,8 +2,8 @@
   margin: 0 auto;
   max-width: 800px;
   max-height: min-content;
-  background-color: burlywood;
-  opacity: 0.8;
+  /* background-color: burlywood; */
+  /* opacity: 0.8; */
   text-align: center;
 }
 
@@ -11,30 +11,46 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-image: url('vecteezy/vecteezy_grid-paper-on-a-white-background-vector-illustration-for_7875353.jpg');
   background-size: cover;
+  color: #191716;
 }
 
 .card-header {
-  background-color: blueviolet;
+  /* background-color: blueviolet; */
   text-align: center;
   text-transform: uppercase;
   text-decoration: underline overline dotted black;
 }
 
-.card-recipes {
-  width: 400px;
-  margin: auto;
-  padding: 50px;
-  background-color: antiquewhite;
+.header {
+  margin: 30px auto 0;
+}
+
+.recipe {
+  background-color: #BEB7A4;
+  opacity: 0.8;
   border-radius: 5px;
+  border: 3px dotted #E0E2DB;
+  margin: 20px;
+  padding: 20px;
+}
+
+.card-recipes {
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background-color: antiquewhite; */
+  /* border-radius: 5px; */
 }
 
 .list-recipe {
+  display: flex;
   list-style-type: none;
   text-align: center;
+  padding-left: 0;
 }
 
 a {
   text-decoration: none;
-  color: aqua;
   line-height: 1.9;
+  color: #191716;
 }
