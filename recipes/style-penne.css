@@ -11,10 +11,11 @@ body {
 
 .container {
   display: flex;
+  gap: 2rem;
   height: auto;
   padding: 25px;
   margin: 0 auto;
-  width: 800px;
+  width: 850px;
 }
 
 .back-btn {
@@ -47,7 +48,7 @@ body {
 
 .container > .card-instructions {
   flex: 2;
-  margin-left: 35px;
+  /* margin-left: 35px; */
 }
 
 .container > .card-instructions ol {
